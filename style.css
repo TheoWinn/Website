@@ -6,6 +6,10 @@ body {
   line-height: 1.6;
 }
 
+main {
+    text-align: center;
+}
+
 header {
   border-bottom: 1px solid #ccc;
   margin-bottom: 2rem;
@@ -16,11 +20,12 @@ nav ul {
   padding: 0;
   display: flex;
   gap: 1rem;
+  justify-content: center;
 }
 
 nav a {
   text-decoration: none;
-  color: #007acc;
+  color: #58edb6;
 }
 
 nav a:hover {
@@ -32,4 +37,9 @@ footer {
   font-size: 0.9rem;
   color: #777;
   text-align: center;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    text-align: center;
 }
